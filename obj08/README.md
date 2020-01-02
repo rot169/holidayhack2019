@@ -17,8 +17,8 @@ sudo python3 -m pip install tensorflow_hub              #this one may or may not
 ```
 
 ### Contents
-image_scraper.py - make a call to the Frido Sleigh CAPTEHA and store each image & label. Run repeated times to collect a body of training samples, which must then be manually classified.
-retrain.py - builds an image-recognition model based on training data.
-predict_images.py - feeds images through the ML model to determine their classification.
-predict_capteha.py - makes a call to the Frido Sleigh CAPTEHA, feeds data through the ML model, and submits a CAPTEHA response.
-capteha_bypass.py - defeats the Frido Sleigh CAPTEHA and submits repeated competition entries.
+* image_scraper.py - make a call to the Frido Sleigh CAPTEHA and store each image & label. Run repeated times to collect a body of training samples, which must then be manually classified.
+* retrain.py - builds an image-recognition model based on training data.
+* predict_images.py - feeds images through the ML model to determine their classification.
+* predict_capteha.py - makes a call to the Frido Sleigh CAPTEHA, feeds data through the ML model, and submits a CAPTEHA response.
+* capteha_bypass.py - defeats the Frido Sleigh CAPTEHA and submits repeated competition entries.
